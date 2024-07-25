@@ -135,7 +135,7 @@
     gap: 2px;
    }
    .video2{
-    margin-top: 20px;
+    margin-top: -10px;
     font-size: 10px;
     margin-left: 10px;
     
@@ -231,7 +231,7 @@ opacity: 0px;
 } 
 
 .main-second{
-  margin-left: 120px;
+  margin-left: 140px;
   margin-top: 60px;
   height: 100px;
   width: 400px;
@@ -245,6 +245,165 @@ opacity: 0px;
   font-weight: 40;
   font-size: 10px;
 
+}
+
+.main-third{
+  height: 371px;
+  width: 900px;
+  margin-left: 130px;
+  margin-top: 20px;
+
+}
+.third-top, .third-bottom{
+  display: flex;
+  justify-content: baseline;
+}
+#top1{
+  width: 225px;
+  height: 185px;
+  
+}
+#top2{
+  width: 405px;
+  height: 185px;
+}
+#top3{
+  width: 270px;
+  height: 185px;
+
+}
+#bottom1{
+  width: 405px;
+  height: 185px;
+}
+#bottom2{
+  width: 225px;
+  height: 185px;
+
+}
+#bottom3{
+  width: 270px;
+  height: 185px;
+
+}
+.main-fourth{
+  height: 20px;
+  width: 600px;
+  margin-left: 200px;
+}
+
+.fourth-title{
+  font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 57.6px;
+margin-top: 30px;
+}
+.fourth-descript{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 300;
+line-height:15px;
+/* letter-spacing: 0.30000001192092896px; */
+text-align: left;
+margin-top: -30px;
+
+
+}
+.main-fifth{
+  height: 487px;
+  background-color:rgba(63, 56, 56, 0.616) ;
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.fifth-left-title{
+  font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+line-height: 33.6px;
+text-align: left;
+margin-left: 50px;
+padding-top: 40px;
+
+}
+.fifth-left-chart{
+  display: grid;
+  grid-template-columns: 150px 150px;
+  margin-left:50px ;
+  margin-top: 80px;
+  
+}
+.fifth-left-chart>div{
+  border: 2px solid rgb(72, 70, 70);
+  padding-left: 9px;
+  padding-top: 9px;
+  height: 30px;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 150;
+line-height:15px;
+  
+}
+#bmi, #ws{
+  font-weight: 90px;
+  font-size: 18px;
+  color:white;
+  font: bold;
+}
+.fifth-right-title{
+
+  font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+line-height: 33.6px;
+margin-right: 250px;
+padding-top: 40px;
+}
+.fifth-right-decript{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 250;
+/* line-height: 24px; */
+letter-spacing: 0.3px;
+padding-right: 3px;
+
+}
+.input{
+  width: 350px;
+  height: 38px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:rgba(67, 64, 64, 0.616) ;
+  color:linen;
+}
+.first-input{
+  margin-top: 60px;
+
+}
+.second-input{
+  margin-top: 10px;
+}
+#sex{
+  width: 370px;
+  height: 40px;
+  padding-left: 3px;
+  color:rgb(112, 110, 107);
+}
+.input1{
+  width: 750px;
+  height: 38px;
+  margin-top: 10px;
+  background-color:rgba(67, 64, 64, 0.616) ;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+  color:rgb(112, 110, 107);
+
+}
+#clc-button{
+  margin-top: 20px;
 }
   
 
