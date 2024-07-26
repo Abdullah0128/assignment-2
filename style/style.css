@@ -214,7 +214,6 @@
   padding-left: 180px;
   padding-top: 70px;
   
-  
 }
 
 
@@ -227,7 +226,6 @@ gap: 0px;
 border-radius: 18px 0px 0px 0px;
 opacity: 0px;
 
-  
 } 
 
 .main-second{
@@ -388,7 +386,7 @@ padding-right: 3px;
 #sex{
   width: 370px;
   height: 40px;
-  padding-left: 3px;
+  padding-left: 20px;
   color:rgb(112, 110, 107);
 }
 .input1{
@@ -405,8 +403,150 @@ padding-right: 3px;
 #clc-button{
   margin-top: 20px;
 }
-  
+.main-sixth{
+  width: 550px;
+  height: 50px;
+  margin-left: 270px;
+}
+.sixth-title{
+  font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 57.6px;
+margin-top: 30px;
+text-align: center;
+}
+.sixth-descript{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 300;
+line-height:15px;
+/* letter-spacing: 0.30000001192092896px; */
+text-align: left;
+margin-top: -30px;
+text-align: center;
+}
+.main-seventh{
+  width: 800px;
+  height:  500px;
+opacity: 0px;
+/* border: 2px solid red; */
+margin-top: 90px;
+margin-left: 180px;
+background-color:rgba(63, 56, 56, 0.616) ;
+border-radius: 10px;
 
+}
+.seventh-top{
+  height: 230px;
+  /* border: 2px solid gray; */
+}
+.trainer1{
+  width: 250px;
+  margin-left: 10px;
+  padding-top: 17px;
+}
+.trainer1-img{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  border-radius: 10px;
+}
+.trainer1-name{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  padding-top: 150px;
+}
+.trainer2{
+  width: 250px;
+  margin-left: 270px;
+}
+.trainer2-img{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  border-radius: 10px;
+}
+.trainer2-name{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  padding-top: 150px;
+}
+.trainer3{
+  width: 250px;
+  margin-left: 530px;
+}
+.trainer3-img{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  border-radius: 10px;
+
+}
+.trainer3-name{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  padding-top: 150px;
+}
+
+.seventh-bottom{
+  height: 230px;
+  /* border: 2px solid gray; */
+  margin-top: 30px;
+}
+.trainer4{
+  width: 250px;
+  margin-left: 10px;
+}
+.trainer4-img{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  border-radius: 10px;
+}
+.trainer4-name{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  padding-top: 150px;
+}
+.trainer5{
+  width: 250px;
+  margin-left: 270px;
+}
+
+.trainer5-img{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  border-radius: 10px;
+}
+.trainer5-name{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  padding-top: 150px;
+}
+
+.trainer6{
+  width: 250px;
+  margin-left: 530px;
+}
+.trainer6-img{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  border-radius: 10px;
+}
+.trainer6-name{
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  padding-top: 150px;
+}
 
 
 
@@ -494,6 +634,109 @@ padding-right: 3px;
       width: 140px;
       margin-left: 20px;
     }
+
+    .main-third{
+      margin-top: 200px;
+      margin-left: -20px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+    }
+    #top1{
+      width: 190px;
+      height: 185px;
+      
+    }
+    #top2{
+      width: 190px;
+      height: 185px;
+    }
     
+    #bottom1{
+      width: 150px;
+      height: 185px;
+    }
+    #bottom2{
+      width: 190px;
+      height: 185px;
     
+    }
+    .main-fourth{
+      height: 20px;
+      width: 400px;
+      margin-left: -10px;
+    }
+    .main-fifth{
+      height: 920px;
+      background-color:rgba(63, 56, 56, 0.616) ;
+      margin-top: 180px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);   
    }
+   .fifth-left-title{
+    font-family: Inter;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 33.6px;
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 40px;
+  
+  }
+  .fifth-left-chart{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    margin-left:10px ;
+    margin-top: 50px;
+    
+  }
+  .fifth-left-chart>div{
+    border: 2px solid rgb(72, 70, 70);
+    padding-left: 9px;
+    padding-top: 9px;
+    height: 30px;
+    font-family: Inter;
+  font-size: 14px;
+  font-weight: 150;
+  line-height:15px;
+    
+  }
+  .fifth-right-decript{
+    font-family: Inter;
+  font-size: 14px;
+  font-weight: 250;
+  /* line-height: 24px; */
+  letter-spacing: 0.3px;
+  padding-right: 200px;
+   
+  }
+  .input{
+    width: 110px;
+    height: 38px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(67, 64, 64, 0.616) ;
+    color:linen;
+    margin-top: 10px;
+  }
+  #sex{
+    width: 130px;
+    height: 40px;
+    padding-left: 20px;
+    color:rgb(112, 110, 107);
+  }
+  .input1{
+    width: 290px;
+    height: 38px;
+    margin-top: 10px;
+    background-color:rgba(67, 64, 64, 0.616) ;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    color:rgb(112, 110, 107);
+  
+  }
+ 
+
+  }
