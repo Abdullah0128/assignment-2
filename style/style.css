@@ -555,7 +555,7 @@ border-radius: 10px;
 
 
 
-   @media screen and (max-width:576px) {
+   @media screen and (max-width:576px){
     *{
       margin-left: 10px;
       margin-right: 10px;
@@ -643,50 +643,51 @@ border-radius: 10px;
       
     }
     #top1{
-      width: 190px;
-      height: 185px;
+      width: 130px;
+      height: 155px;
       
     }
     #top2{
-      width: 190px;
-      height: 185px;
+      width: 120px;
+      height: 155px;
     }
     
     #bottom1{
-      width: 150px;
-      height: 185px;
+      width: 120px;
+      height: 155px;
     }
     #bottom2{
-      width: 190px;
-      height: 185px;
+      width: 120px;
+      height: 155px;
     
     }
     .main-fourth{
       height: 20px;
-      width: 400px;
+      width: 180px;
       margin-left: -10px;
     }
     .main-fifth{
       height: 920px;
+      width: 210px;
       background-color:rgba(63, 56, 56, 0.616) ;
-      margin-top: 180px;
+      margin-top: 200px;
       display: grid;
       grid-template-columns: repeat(1,1fr);   
    }
    .fifth-left-title{
     font-family: Inter;
-  font-size: 28px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: 600;
   line-height: 33.6px;
   text-align: left;
-  margin-left: 10px;
-  padding-top: 40px;
+  margin-left: 30px;
+  padding-top: 50px;
   
   }
   .fifth-left-chart{
     display: grid;
-    grid-template-columns: 150px 150px;
-    margin-left:10px ;
+    grid-template-columns: 100px 110px;
+    margin-left:-5px ;
     margin-top: 50px;
     
   }
@@ -711,9 +712,9 @@ border-radius: 10px;
    
   }
   .input{
-    width: 110px;
+    width: 70px;
     height: 38px;
-    padding-left: 20px;
+    padding-left: 5px;
     border: none;
     border-radius: 5px;
     background-color:rgba(67, 64, 64, 0.616) ;
@@ -721,13 +722,13 @@ border-radius: 10px;
     margin-top: 10px;
   }
   #sex{
-    width: 130px;
+    width: 70px;
     height: 40px;
     padding-left: 20px;
     color:rgb(112, 110, 107);
   }
   .input1{
-    width: 290px;
+    width: 170px;
     height: 38px;
     margin-top: 10px;
     background-color:rgba(67, 64, 64, 0.616) ;
@@ -736,6 +737,160 @@ border-radius: 10px;
     padding-left: 20px;
     color:rgb(112, 110, 107);
   
+  }
+  .main-sixth{
+    width: 250px;
+    height: 50px;
+    margin-left: 0px;
+  }
+  .sixth-title{
+    font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+  margin-top: 30px;
+  text-align: center;
+  }
+  .sixth-descript{
+    font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height:15px;
+  /* letter-spacing: 0.30000001192092896px; */
+  text-align: left;
+  margin-top: -30px;
+  text-align: center;
+  }
+  .main-seventh{
+    width: 300px;
+    height:  1000px;
+  opacity: 0px;
+  /* border: 2px solid red; */
+  margin-top: 170px;
+  margin-left: 10px;
+  background-color:rgba(63, 56, 56, 0.616) ;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  
+  }
+  .seventh-top{
+    height: 500px;
+    /* border: 2px solid gray; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .trainer1{
+    width: 190px;
+    margin-left: 10px;
+    padding-top: 17px;
+  }
+  .trainer1-img{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .trainer1-name{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    padding-top: 120px;
+  }
+  .trainer2{
+    width: 190px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .trainer2-img{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .trainer2-name{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    padding-top: 120px;
+  }
+  .trainer3{
+    width: 190px;
+    height: 170px;
+    margin-left: 10px;
+  }
+  .trainer3-img{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    border-radius: 10px;
+  
+  }
+  .trainer3-name{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    padding-top: 120px;
+  }
+  
+  .seventh-bottom{
+    height: 500px;
+    /* border: 2px solid gray; */
+    margin-top: -190px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .trainer4{
+    width: 190px;
+    margin-left: 10px;
+  }
+  .trainer4-img{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .trainer4-name{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    padding-top: 120px;
+  }
+  .trainer5{
+    width: 190px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .trainer5-img{
+     width: 190px;
+    height: 170px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .trainer5-name{
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    padding-top: 150px;
+  }
+  
+  .trainer6{
+    width: 190px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .trainer6-img{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .trainer6-name{
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    padding-top: 150px;
   }
  
 
