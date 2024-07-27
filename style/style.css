@@ -417,10 +417,15 @@ margin-top: 30px;
 text-align: center;
 }
 .sixth-descript{
-  font-family: Inter;
+  /* font-family: Inter;
 font-size: 14px;
 font-weight: 300;
-line-height:15px;
+line-height:15px; */
+font-family: Inter;
+font-size: 14px;
+font-weight: 250;
+/* line-height: 24px; */
+letter-spacing: 0.3px;
 /* letter-spacing: 0.30000001192092896px; */
 text-align: left;
 margin-top: -30px;
@@ -546,6 +551,71 @@ border-radius: 10px;
   height: 230px;
   position: absolute;
   padding-top: 150px;
+}
+
+/* Footer part */
+.footer-first{
+  height: 400px;
+  width: 1200px;
+  background-color:rgba(63, 56, 56, 0.616) ;
+}
+.footer-first-top{
+  height: 320px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-left{
+  width: 300px;
+  margin-left: 170px;
+  margin-top: 30px;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 150;
+/* line-height: 24px; */
+letter-spacing: 0.3px;
+
+}
+.footer-center{
+  width: 300px;
+  margin-left: 90px;
+  margin-top: 40px;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 150;
+/* line-height: 24px; */
+letter-spacing: 0.3px;
+}
+.footer-center>ul li{
+  list-style: none;
+}
+.footer-center-title{
+  padding-left: 35px;
+}
+.footer-right{
+  width: 300px;
+  margin-right: 70px;
+  margin-top: 40px;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 150;
+/* line-height: 24px; */
+letter-spacing: 0.3px;
+
+}
+.footer-right>ul li{
+  list-style: none;
+}
+.footer-right-title{
+  padding-left: 35px;
+}
+.footer-last{
+  text-align: center;
+}
+hr{
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 
