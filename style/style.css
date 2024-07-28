@@ -60,9 +60,9 @@
 
    }
    span{
-    font-family: Miama;
+    font-family: "Playwrite DE VA";
     font-style: italic;
-    font-weight: 100;
+    font-weight: 10;
     font-size:80px ;
     
    }
@@ -210,21 +210,22 @@
 }
 .first-right{
   height: 250px;
-  width: 400px;
-  padding-left: 180px;
+  width: 250px;
+  padding-left: 100px;
   padding-top: 70px;
+  margin-right: 50px;
   
 }
 
 
 .main-image{
-  width: 200px;
-height: 200px;
+  width: 250px;
+height: 250px;
 top: 30px;
 left: 662px;
 gap: 0px;
-border-radius: 18px 0px 0px 0px;
-opacity: 0px;
+border-radius: 20px;
+
 
 } 
 
@@ -368,7 +369,7 @@ padding-right: 3px;
 
 }
 .input{
-  width: 350px;
+  width: 300px;
   height: 38px;
   padding-left: 20px;
   border: none;
@@ -384,13 +385,13 @@ padding-right: 3px;
   margin-top: 10px;
 }
 #sex{
-  width: 370px;
+  width: 320px;
   height: 40px;
   padding-left: 20px;
   color:rgb(112, 110, 107);
 }
 .input1{
-  width: 750px;
+  width: 650px;
   height: 38px;
   margin-top: 10px;
   background-color:rgba(67, 64, 64, 0.616) ;
@@ -617,6 +618,13 @@ hr{
   margin-left: 100px;
   margin-right: 100px;
 }
+.letter{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 150;
+  /* line-height: 24px; */
+  letter-spacing: 0.3px;
+}
 
 
 
@@ -632,7 +640,13 @@ hr{
     }
 
     .nav{
-      margin-left: 60px;
+      margin-left: 20px;
+      display: flex;
+    justify-content:space-around;
+    gap: 5px;
+    }
+    .fitness{
+      margin-left: -50px;
     }
 
     .menu>ul li{
@@ -640,28 +654,65 @@ hr{
       
     }
     .menu{
-      background-image: url(../images/exercise1.jpg);
-      margin-left: 100px; 
+      background-image: url(../images/ICON.png);
+     background-size: cover;
+     background-color: rgb(214, 165, 165);
+      margin-left: 10px; 
+      color: aquamarine;
+      height: 50px;
+      margin-top: 10px;
+      
      
     }
     .header-main{
       display: grid;
       grid-template-columns: repeat(1,1fr);
       align-items: center;
-      margin-left: 30px;
+      margin-left:-20px;
       
     }
+    .header-description{
+      height: 500px;
+      width: 300px;
+     }
+    .head-title{
+      font-weight: 1800;
+      font-size: 35px;
+      
+     }
+     .join{
+      height: 30px;
+      width: 100px;
+      border-radius: 15px;
+     }
+     .app{
+      height: 30px;
+      width: 100px;
+      border-radius: 15px;
+      border: 1px solid white;
+      background-color: black;
+  
+     }
+     .header-description>ul{
+      display: flex;
+      list-style: none;
+      gap:20px;
+      color: rgba(255, 255, 255, 1);
+      margin-top:30px ;
+       margin-left: -70px; 
+      gap: 0px;
+     }
     .header-image{
       align-items: center;
-      margin-left:60px;
+      margin-left:30px;
     }
     .card-left{
       margin-top: -120px;
-      margin-left: -70px;
+      margin-left: -20px;
     }
     .card-right{
       margin-top:-450px ;
-      margin-right: 80px;
+      margin-right: 30px;
     }
     .header-second{
       margin-top: -150px;
@@ -673,7 +724,7 @@ hr{
     .third-1, .third-2, .third-3, .third-4{
       height: 330px;
       width: 200px;
-      margin-left: -80px;
+      margin-left: -120px;
      
     }
     .main-first{
@@ -686,23 +737,24 @@ hr{
     }
     .first-left{
       height: 200px;
-      width: 180px;
+      width: 200px;
 
     }
     .first-right{
-      height:90px;
+      height:150px;
       width: 150px;
-      margin-left: -140px;
+      margin-left: -100px;
       
     }
     .main-image{
-      padding-right: 10px;
-      height: 200px;
-      width: 180px;
+      /* padding-right: 50px; */
+      height:200px;
+      width: 200px;
+    
     }
     .main-second{
       width: 140px;
-      margin-left: 20px;
+      margin-left:20px;
     }
 
     .main-third{
@@ -742,7 +794,8 @@ hr{
       background-color:rgba(63, 56, 56, 0.616) ;
       margin-top: 200px;
       display: grid;
-      grid-template-columns: repeat(1,1fr);   
+      grid-template-columns: repeat(1,1fr);  
+      margin-left: -5px; 
    }
    .fifth-left-title{
     font-family: Inter;
@@ -811,7 +864,7 @@ hr{
   .main-sixth{
     width: 250px;
     height: 50px;
-    margin-left: 0px;
+    margin-left: -10px;
   }
   .sixth-title{
     font-family: Inter;
@@ -837,7 +890,7 @@ hr{
   opacity: 0px;
   /* border: 2px solid red; */
   margin-top: 170px;
-  margin-left: 10px;
+  margin-left: -10px;
   background-color:rgba(63, 56, 56, 0.616) ;
   border-radius: 10px;
   display: grid;
@@ -962,6 +1015,73 @@ hr{
     position: absolute;
     padding-top: 150px;
   }
+  .footer-first{
+    height:700px;
+    width: 250px;
+    background-color:rgba(63, 56, 56, 0.616) ;
+    margin-left: -10px;
+  }
+  .footer-first-top{
+    height: 500px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 50px;
+  }
+  .footer-left{
+    width: 230px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: Inter;
+  font-size: 14px;
+  font-weight: 150;
+  /* line-height: 24px; */
+  letter-spacing: 0.3px;
+  
+  }
+  .footer-center{
+    width: 300px;
+    margin-left: -30px;
+    margin-top: 40px;
+    font-family: Inter;
+  font-size: 14px;
+  font-weight: 150;
+  /* line-height: 24px; */
+  letter-spacing: 0.3px;
+  }
+  .footer-center>ul li{
+    list-style: none;
+  }
+  .footer-center-title{
+    padding-left: 35px;
+  }
+  .footer-right{
+    width: 300px;
+    margin-left: -30px;
+    margin-top: 40px;
+    font-family: Inter;
+  font-size: 14px;
+  font-weight: 150;
+  /* line-height: 24px; */
+  letter-spacing: 0.3px;
+  
+  }
+  .footer-right>ul li{
+    list-style: none;
+  }
+  .footer-right-title{
+    padding-left: 35px;
+  }
+  .footer-last{
+    text-align: center;
+  }
+  hr{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 90px;
+  }
+  
+  
  
 
   }
