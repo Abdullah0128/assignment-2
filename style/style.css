@@ -59,13 +59,21 @@
     font-size: 10px;
 
    }
-   span{
+   .satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 80px;
+}
+
+   /* span{
     font-family: "Playwrite DE VA";
+    font-family: satisfy ;
     font-style: italic;
     font-weight: 10;
     font-size:80px ;
     
-   }
+   } */
    .join{
     height: 30px;
     width: 120px;
@@ -732,7 +740,8 @@ hr{
       grid-template-columns: repeat(1,1fr);
       height: 850px;
       width: 250px;
-      margin-left: 5px;
+      margin-left: -20px;
+      margin-top: -10px;
 
     }
     .first-left{
@@ -750,6 +759,7 @@ hr{
       /* padding-right: 50px; */
       height:200px;
       width: 200px;
+      margin-left: 30px;
     
     }
     .main-second{
@@ -759,27 +769,30 @@ hr{
 
     .main-third{
       margin-top: 200px;
-      margin-left: -20px;
+      margin-left: -35px;
       display: grid;
       grid-template-columns: repeat(1,1fr);
       
     }
     #top1{
-      width: 130px;
+      width: 110px;
       height: 155px;
       
     }
     #top2{
-      width: 120px;
+      width: 110px;
       height: 155px;
+    }
+    #top3,#bottom3{
+      display: none;
     }
     
     #bottom1{
-      width: 120px;
+      width: 110px;
       height: 155px;
     }
     #bottom2{
-      width: 120px;
+      width: 110px;
       height: 155px;
     
     }
@@ -787,6 +800,13 @@ hr{
       height: 20px;
       width: 180px;
       margin-left: -10px;
+    }
+    .fourth-title{
+      font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 57.6px;
+    margin-top: 30px;
     }
     .main-fifth{
       height: 920px;
@@ -886,7 +906,7 @@ hr{
   }
   .main-seventh{
     width: 300px;
-    height:  1000px;
+    height:  820px;
   opacity: 0px;
   /* border: 2px solid red; */
   margin-top: 170px;
@@ -903,7 +923,10 @@ hr{
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
-  .trainer1{
+  .trainer1,.trainer4{
+    display: none;
+  }
+  /* .trainer1{
     width: 190px;
     margin-left: 10px;
     padding-top: 17px;
@@ -919,7 +942,7 @@ hr{
     height: 170px;
     position: absolute;
     padding-top: 120px;
-  }
+  } */
   .trainer2{
     width: 190px;
     margin-left: 10px;
@@ -941,6 +964,7 @@ hr{
     width: 190px;
     height: 170px;
     margin-left: 10px;
+    margin-top: 100px;
   }
   .trainer3-img{
     width: 190px;
@@ -963,7 +987,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
-  .trainer4{
+  /* .trainer4{
     width: 190px;
     margin-left: 10px;
   }
@@ -978,11 +1002,11 @@ hr{
     height: 170px;
     position: absolute;
     padding-top: 120px;
-  }
+  } */
   .trainer5{
     width: 190px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 120px;
   }
   
   .trainer5-img{
@@ -995,13 +1019,13 @@ hr{
     width: 250px;
     height: 230px;
     position: absolute;
-    padding-top: 150px;
+    padding-top: 120px;
   }
   
   .trainer6{
     width: 190px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .trainer6-img{
     width: 190px;
@@ -1013,7 +1037,7 @@ hr{
     width: 250px;
     height: 230px;
     position: absolute;
-    padding-top: 150px;
+    padding-top: 120px;
   }
   .footer-first{
     height:700px;
@@ -1080,6 +1104,7 @@ hr{
     margin-right: 10px;
     margin-top: 90px;
   }
+  
   
   
  
