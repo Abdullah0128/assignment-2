@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Mr+Dafoe&family=Playwrite+DE+VA:wght@100..400&family=Sacramento&family=Satisfy&display=swap');
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -59,12 +60,16 @@
     font-size: 10px;
 
    }
-   .satisfy-regular {
-  font-family: "Satisfy", cursive;
-  font-weight: 100;
+   
+.mr-dafoe-regular {
+  font-family: "Mr Dafoe", cursive;
+  font-weight: 400;
   font-style: normal;
   font-size: 80px;
 }
+
+
+
 
    /* span{
     font-family: "Playwrite DE VA";
@@ -217,25 +222,17 @@
   
 }
 .first-right{
+  /* background-image: url(../images/run.jpg); */
   height: 250px;
-  width: 250px;
+  width: 150px;
   padding-left: 100px;
-  padding-top: 70px;
+  margin-top: 50px;
   margin-right: 50px;
-  
+  background-image: url(../images/run.jpg);
+  background-position: 66% 30%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
-
-
-.main-image{
-  width: 250px;
-height: 250px;
-top: 30px;
-left: 662px;
-gap: 0px;
-border-radius: 20px;
-
-
-} 
 
 .main-second{
   margin-left: 140px;
@@ -662,13 +659,15 @@ hr{
       
     }
     .menu{
-      background-image: url(../images/ICON.png);
+      background-image: url(../images/menu-bar_4849134.png);
      background-size: cover;
-     background-color: rgb(214, 165, 165);
+     background-color:white;
       margin-left: 10px; 
-      color: aquamarine;
+      color:white;
       height: 50px;
       margin-top: 10px;
+      border-radius:10px;
+      
       
      
     }
@@ -750,18 +749,14 @@ hr{
 
     }
     .first-right{
-      height:150px;
-      width: 150px;
-      margin-left: -100px;
+      height:250px;
+      width: 120px;
+      margin-left: 20px;
+      margin-top: 150px;
+      border-radius: 10px;
       
     }
-    .main-image{
-      /* padding-right: 50px; */
-      height:200px;
-      width: 200px;
-      margin-left: 30px;
     
-    }
     .main-second{
       width: 140px;
       margin-left:20px;
